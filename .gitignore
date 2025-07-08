@@ -1,0 +1,51 @@
+# Ignorar arquivos de ambiente
+.env
+*.env
+.env.*
+
+# Cache e bytecode Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Logs
+*.log
+
+# Arquivos temporários e de backup
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# Arquivos do VSCode
+.vscode/
+
+# Arquivos de Jupyter, se houver futuramente
+*.ipynb_checkpoints
+
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Docker volumes locais
+**/data/
+**/volumes/
+**/output/
+
+# Banco de dados local (caso use SQLite)
+*.db
+*.sqlite3
+
+# Arquivos Python que não devem ser versionados
+*.egg-info/
+dist/
+build/
+
+# Arquivos de cache de pacotes pip
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Excluir arquivos específicos da sua estrutura
+connect-loader/*.env
+consumer/*.env
